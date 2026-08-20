@@ -6,6 +6,8 @@ This repository is recommended to be used via the unirtos-cli demo workflow to e
 
 ## Feature Description
 
+**Note: This demo requires an external ES8311 codec and SPI NOR flash.**
+
 This demo demonstrates Text-to-Speech (TTS) playback on UniRTOS, including codec initialization, TTS session management, and optional external resource loading.
 
 - Demonstrates ES8311 external codec initialization via I2C register configuration

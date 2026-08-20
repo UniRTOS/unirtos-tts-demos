@@ -189,7 +189,7 @@ void unir_tts_demo_process(void *arg)
     ret = unir_codec_init();
     if (ret != 0)
     {
-        QLOGD("docec init faile");
+        QLOGD("codec init failed");
         return;
     }
 
